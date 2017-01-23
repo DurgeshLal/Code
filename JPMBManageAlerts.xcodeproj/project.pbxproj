@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		458D023D1E32F92C00AA191D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D023C1E32F92C00AA191D /* AppDelegate.swift */; };
-		458D023F1E32F92C00AA191D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D023E1E32F92C00AA191D /* ViewController.swift */; };
 		458D02421E32F92C00AA191D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458D02401E32F92C00AA191D /* Main.storyboard */; };
 		458D02441E32F92C00AA191D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458D02431E32F92C00AA191D /* Assets.xcassets */; };
 		458D02471E32F92C00AA191D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458D02451E32F92C00AA191D /* LaunchScreen.storyboard */; };
+		458D024F1E32F9CD00AA191D /* JPMBManageAlertsLandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D024E1E32F9CD00AA191D /* JPMBManageAlertsLandingVC.swift */; };
+		458D02511E32FC4300AA191D /* JPMBManageAlertsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D02501E32FC4300AA191D /* JPMBManageAlertsCell.swift */; };
+		458D02531E331A2B00AA191D /* JPMBManageAlertsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D02521E331A2B00AA191D /* JPMBManageAlertsDataModel.swift */; };
+		458D02551E3328FB00AA191D /* JPMBManageAlertsSelectAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D02541E3328FB00AA191D /* JPMBManageAlertsSelectAccountVC.swift */; };
+		458D02571E3329A300AA191D /* JPMBManageAlertsSelectAccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D02561E3329A300AA191D /* JPMBManageAlertsSelectAccountCell.swift */; };
+		458D02591E332F7E00AA191D /* JPMBManageAlertsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D02581E332F7E00AA191D /* JPMBManageAlertsDetailVC.swift */; };
+		458D025B1E332FA900AA191D /* JPMBManageAlertsDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D025A1E332FA900AA191D /* JPMBManageAlertsDetailCell.swift */; };
+		458D025D1E333A3A00AA191D /* JPMBManageAlertsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D025C1E333A3A00AA191D /* JPMBManageAlertsTableVC.swift */; };
+		458D025F1E333A5D00AA191D /* JPMBManageAlertTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D025E1E333A5D00AA191D /* JPMBManageAlertTableCell.swift */; };
+		458D02611E33B83700AA191D /* JPMBManageAlertsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D02601E33B83700AA191D /* JPMBManageAlertsProtocol.swift */; };
+		458D02631E33B8A700AA191D /* JPMBSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D02621E33B8A700AA191D /* JPMBSwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		458D02391E32F92C00AA191D /* JPMBManageAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPMBManageAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		458D023C1E32F92C00AA191D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		458D023E1E32F92C00AA191D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		458D02411E32F92C00AA191D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		458D02431E32F92C00AA191D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		458D02461E32F92C00AA191D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		458D02481E32F92C00AA191D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		458D024E1E32F9CD00AA191D /* JPMBManageAlertsLandingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPMBManageAlertsLandingVC.swift; sourceTree = "<group>"; };
+		458D02501E32FC4300AA191D /* JPMBManageAlertsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPMBManageAlertsCell.swift; sourceTree = "<group>"; };
+		458D02521E331A2B00AA191D /* JPMBManageAlertsDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPMBManageAlertsDataModel.swift; sourceTree = "<group>"; };
+		458D02541E3328FB00AA191D /* JPMBManageAlertsSelectAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPMBManageAlertsSelectAccountVC.swift; sourceTree = "<group>"; };
+		458D02561E3329A300AA191D /* JPMBManageAlertsSelectAccountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPMBManageAlertsSelectAccountCell.swift; sourceTree = "<group>"; };
+		458D02581E332F7E00AA191D /* JPMBManageAlertsDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPMBManageAlertsDetailVC.swift; sourceTree = "<group>"; };
+		458D025A1E332FA900AA191D /* JPMBManageAlertsDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPMBManageAlertsDetailCell.swift; sourceTree = "<group>"; };
+		458D025C1E333A3A00AA191D /* JPMBManageAlertsTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPMBManageAlertsTableVC.swift; sourceTree = "<group>"; };
+		458D025E1E333A5D00AA191D /* JPMBManageAlertTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPMBManageAlertTableCell.swift; sourceTree = "<group>"; };
+		458D02601E33B83700AA191D /* JPMBManageAlertsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPMBManageAlertsProtocol.swift; sourceTree = "<group>"; };
+		458D02621E33B8A700AA191D /* JPMBSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPMBSwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +74,19 @@
 		458D023B1E32F92C00AA191D /* JPMBManageAlerts */ = {
 			isa = PBXGroup;
 			children = (
+				458D024E1E32F9CD00AA191D /* JPMBManageAlertsLandingVC.swift */,
+				458D02501E32FC4300AA191D /* JPMBManageAlertsCell.swift */,
+				458D02581E332F7E00AA191D /* JPMBManageAlertsDetailVC.swift */,
+				458D025A1E332FA900AA191D /* JPMBManageAlertsDetailCell.swift */,
+				458D025C1E333A3A00AA191D /* JPMBManageAlertsTableVC.swift */,
+				458D025E1E333A5D00AA191D /* JPMBManageAlertTableCell.swift */,
 				458D023C1E32F92C00AA191D /* AppDelegate.swift */,
-				458D023E1E32F92C00AA191D /* ViewController.swift */,
+				458D02521E331A2B00AA191D /* JPMBManageAlertsDataModel.swift */,
+				458D02601E33B83700AA191D /* JPMBManageAlertsProtocol.swift */,
+				458D02621E33B8A700AA191D /* JPMBSwitch.swift */,
 				458D02401E32F92C00AA191D /* Main.storyboard */,
+				458D02541E3328FB00AA191D /* JPMBManageAlertsSelectAccountVC.swift */,
+				458D02561E3329A300AA191D /* JPMBManageAlertsSelectAccountCell.swift */,
 				458D02431E32F92C00AA191D /* Assets.xcassets */,
 				458D02451E32F92C00AA191D /* LaunchScreen.storyboard */,
 				458D02481E32F92C00AA191D /* Info.plist */,
@@ -136,8 +166,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458D023F1E32F92C00AA191D /* ViewController.swift in Sources */,
+				458D02551E3328FB00AA191D /* JPMBManageAlertsSelectAccountVC.swift in Sources */,
+				458D02611E33B83700AA191D /* JPMBManageAlertsProtocol.swift in Sources */,
+				458D02631E33B8A700AA191D /* JPMBSwitch.swift in Sources */,
+				458D02511E32FC4300AA191D /* JPMBManageAlertsCell.swift in Sources */,
+				458D02571E3329A300AA191D /* JPMBManageAlertsSelectAccountCell.swift in Sources */,
+				458D02591E332F7E00AA191D /* JPMBManageAlertsDetailVC.swift in Sources */,
+				458D025D1E333A3A00AA191D /* JPMBManageAlertsTableVC.swift in Sources */,
+				458D025F1E333A5D00AA191D /* JPMBManageAlertTableCell.swift in Sources */,
 				458D023D1E32F92C00AA191D /* AppDelegate.swift in Sources */,
+				458D02531E331A2B00AA191D /* JPMBManageAlertsDataModel.swift in Sources */,
+				458D025B1E332FA900AA191D /* JPMBManageAlertsDetailCell.swift in Sources */,
+				458D024F1E32F9CD00AA191D /* JPMBManageAlertsLandingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
